@@ -1,33 +1,40 @@
 <img align="center" width="453" alt="logoPharma" src="https://github.com/Team-Upsilon/PharmaVerse-frontend/assets/103581884/6c562eb4-4c57-4f20-9cdd-e9fe98cc27f1">
 
-# 🌿 PharmaVerse  Decentralized Medicine Ecosystem  
 
-PharmaVerse is a **decentralized blockchain application** designed to streamline **medicine production, tracking, and verification**. This frontend provides an **intuitive interface** for interacting with smart contracts deployed on the **Ethereum Sepolia Testnet**, enabling **manufacturers, suppliers, pharmacists, and consumers** to seamlessly access blockchain-based pharmaceutical records.  
+
+# 🌿 PharmaVerse – Decentralized Medical Ecosystem
+
+PharmaVerse is a **decentralized blockchain application** designed to streamline **medicine production, tracking, and verification**. This project utilizes **blockchain technology and smart contracts** to ensure **transparency and accountability** throughout the pharmaceutical supply chain. The system integrates a **frontend interface, backend infrastructure, and AI-powered chatbot** for seamless interactions with blockchain records.
 
 ---
 
 ## 🚀 Features  
 
-✅ **Role-Based UI** – Interactive dashboard for **Manufacturers, Suppliers, Pharmacists, and Consumers**.  
-✅ **Blockchain Integration** – Real-time **medicine tracking, batch scheduling, and quality verification**.  
+✅ **Decentralized Medicine Tracking** – Ensures transparency and security in drug manufacturing and distribution.  
+✅ **Smart Contracts** – Eight Solidity-based contracts manage **raw materials, quality inspection, batch scheduling, and distribution**.  
+✅ **Automated Batch Scheduling** – Optimized production workflows using **smart contract logic**.  
 ✅ **AI Chatbot Assistant** – Google AI Studio-powered chatbot **guides users through PharmaVerse interactions**.  
 ✅ **Web3 & MetaMask Support** – **Secure Ethereum transactions** with blockchain-based authentication.  
-✅ **Smart Contract Interaction** – Seamlessly fetch and update **medicine production and compliance records**.  
+✅ **Testing Framework** – Uses **Chai and Mocha** for **smart contract testing**.  
+✅ **Deployment** – Contracts are deployed on the **Sepolia Testnet using Hardhat**.  
 
 ---
 
 ## 🛠️ Getting Started  
-FRONTEND
+
 ### 1️⃣ Prerequisites  
 
 Before setting up the project, ensure you have:  
 
-- **[Node.js (v16 or later)](https://nodejs.org/)** – Required for running the frontend.  
+- **[Node.js (v16 or later)](https://nodejs.org/)** – Required for running both frontend and backend.  
 - **[MetaMask](https://metamask.io/)** – To connect with the **Ethereum Sepolia Testnet**.  
 - **PharmaVerse Smart Contracts** – Already deployed on **Sepolia Testnet**.  
 - **Alchemy or Infura API Key** – For blockchain RPC access.  
+- **Hardhat** – Ethereum development environment.  
 
 ---
+
+## 📌 Frontend Setup  
 
 ### 2️⃣ Clone the Repository  
 
@@ -36,15 +43,11 @@ Before setting up the project, ensure you have:
  cd pharmaverse-frontend
 ```
 
----
-
 ### 3️⃣ Install Dependencies  
 
 ```sh
  npm install
 ```
-
----
 
 ### 4️⃣ Configure Environment Variables  
 
@@ -55,8 +58,6 @@ Create a **.env** file in the project root and add the required keys:
  REACT_APP_CONTRACT_ADDRESS=<your_smart_contract_address>
  REACT_APP_AI_CHATBOT_API=<your_google_ai_studio_api_key>
 ```
-
----
 
 ### 5️⃣ Run the Application  
 
@@ -70,19 +71,53 @@ The application will be available at **http://localhost:3000**.
 
 ---
 
-## 🔄 Deployment  
+## 🔄 Backend Setup  
 
-To deploy the frontend, first build the application:  
+### 6️⃣ Clone the Backend Repository  
 
 ```sh
- npm run build
+ git clone https://github.com/yourusername/pharmaverse-backend.git
+ cd pharmaverse-backend
 ```
 
-Then, **upload the generated `build/` folder** to any hosting platform such as:  
+### 7️⃣ Install Dependencies  
 
-- **Vercel** – [Deploy Here](https://vercel.com/)  
-- **Netlify** – [Deploy Here](https://www.netlify.com/)  
-- **Firebase Hosting** – [Deploy Here](https://firebase.google.com/)  
+```sh
+ npm install
+```
+
+### 8️⃣ Configure Environment Variables  
+
+Create a **.env** file in the project root and add the following:  
+
+```sh
+ PRIVATE_KEY=<your_wallet_private_key>
+ ALCHEMY_API_URL=<your_alchemy_or_infura_url>
+```
+
+### 9️⃣ Compile Smart Contracts  
+
+```sh
+ npx hardhat compile
+```
+
+### 🔟 Run Tests  
+
+```sh
+ npx hardhat test
+```
+
+### 1️⃣1️⃣ Deploy to Sepolia Testnet  
+
+```sh
+ npx hardhat run scripts/deploy.js --network sepolia
+```
+
+### 1️⃣2️⃣ Verify Contract on Etherscan (Optional)  
+
+```sh
+ npx hardhat verify --network sepolia <contract_address>
+```
 
 ---
 
@@ -96,6 +131,12 @@ Then, **upload the generated `build/` folder** to any hosting platform such as:
 ---
 
 ## 📩 Contact  
+
+For any issues or clarifications, reach out to the project owner.  
+
+---
+
+Now your **PharmaVerse frontend and backend** are **ready for development, deployment, and submission**! 🚀
 
 For any issues or clarifications, reach out to the project owner.  
 
