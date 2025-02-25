@@ -17,7 +17,7 @@ PharmaVerse is a **decentralized blockchain application** designed to streamline
 ---
 
 ## 🛠️ Getting Started  
-##FRONTEND
+FRONTEND
 ### 1️⃣ Prerequisites  
 
 Before setting up the project, ensure you have:  
