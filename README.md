@@ -1,6 +1,6 @@
 <img align="center" width="453" alt="logoPharma" src="https://github.com/Team-Upsilon/PharmaVerse-frontend/assets/103581884/6c562eb4-4c57-4f20-9cdd-e9fe98cc27f1">
 
-# 🌿 PharmaVerse Frontend – Decentralized Medicine Ecosystem  
+# 🌿 PharmaVerse  Decentralized Medicine Ecosystem  
 
 PharmaVerse is a **decentralized blockchain application** designed to streamline **medicine production, tracking, and verification**. This frontend provides an **intuitive interface** for interacting with smart contracts deployed on the **Ethereum Sepolia Testnet**, enabling **manufacturers, suppliers, pharmacists, and consumers** to seamlessly access blockchain-based pharmaceutical records.  
 
@@ -17,7 +17,7 @@ PharmaVerse is a **decentralized blockchain application** designed to streamline
 ---
 
 ## 🛠️ Getting Started  
-
+##FRONTEND
 ### 1️⃣ Prerequisites  
 
 Before setting up the project, ensure you have:  
