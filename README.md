@@ -7,6 +7,9 @@
 PharmaVerse is a **decentralized blockchain application** designed to streamline **medicine production, tracking, and verification**. This project utilizes **blockchain technology and smart contracts** to ensure **transparency and accountability** throughout the pharmaceutical supply chain. The system integrates a **frontend interface, backend infrastructure, and AI-powered chatbot** for seamless interactions with blockchain records.
 
 ---
+## Flow Diagram
+![image](https://github.com/user-attachments/assets/70643d46-5182-4417-843c-11280b0afc81)
+
 
 ## 🚀 Features  
 
