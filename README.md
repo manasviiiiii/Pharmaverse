@@ -166,8 +166,12 @@ UI screenshots :-
 ![image](https://github.com/user-attachments/assets/bd09f277-f8f6-4a09-8791-f3c28d652753)
 ![image](https://github.com/user-attachments/assets/29b19220-df79-4933-a907-5f9e00178c5d)
 ![image](https://github.com/user-attachments/assets/1fb51d9e-3714-4dc2-962e-311cce1f7481)
-![image](https://github.com/user-attachments/assets/a94c941a-ed7e-4022-beac-7416e0573dc2)
-![image](https://github.com/user-attachments/assets/b69cc602-44e3-475e-9d60-a98a7295bc7d)
+![image](https://github.com/user-attachments/assets/c3bd571f-ceff-496d-a495-e6af1b910906)
+![image](https://github.com/user-attachments/assets/bf9c864c-80dd-440b-98df-db7c56b22bab)
+![image](https://github.com/user-attachments/assets/52bfe5a7-2144-4018-8b3c-84c437f58a25)
+
+
+
 
 
 
